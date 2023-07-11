@@ -1,0 +1,36 @@
+@use "variaveis";
+@use "cartao";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: variaveis.$textColor;
+    font-size: 18px;
+
+    // border: 1px solid gray;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 90deg, variaveis.$bgBodyEscuro, variaveis.$bgBodyClaro, variaveis.$bgBodyEscuro );
+    width: 100vw;
+    height: 100vh;
+}
+
+.textBig{
+    font-size: 48px;
+}
+
+.textMedio{
+    font-size: 32px;
+}
+
+.textTema{
+    color: variaveis.$textTituloTema;
+}
