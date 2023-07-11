@@ -9,9 +9,10 @@
     font-family: 'Roboto', sans-serif;
     color: variaveis.$textColor;
     font-size: 18px;
-
-    // border: 1px solid gray;
     
+    @media (max-width: 768px){
+        font-size: 14px;
+    }
 }
 
 .container{
@@ -21,6 +22,7 @@
     background-image: linear-gradient( 90deg, variaveis.$bgBodyEscuro, variaveis.$bgBodyClaro, variaveis.$bgBodyEscuro );
     width: 100vw;
     height: 100vh;
+
 }
 
 .textBig{
@@ -34,3 +36,4 @@
 .textTema{
     color: variaveis.$textTituloTema;
 }
+
